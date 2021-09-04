@@ -12,9 +12,38 @@ html {
 body{
     width: 100%;
     background-color: lightgoldenrodyellow;
+    font-family: 'Varela Round', sans-serif;
 }
-
-#cabecera{
+header{
+  background-color: goldenrod;
+}
+#enanos_albinos{
+  font-family: 'Varela Round', sans-serif;
+}
+#quees{
+  font-size: 25px;
+}
+#Caracteristicas{
+  font-size: 25px;
+}
+#hello{
+  font-size: 15px;
+}
+#peter{
+  font-size: 15px;
+}
+#Im_spiderman{
+  font-size: 25px;
+}
+#im_not_peter{
+  font-size: 15px;
+}
+.imgs{
+  height: 250px;
+  display: block;
+  margin: auto;
+}
+#encabezado{
     background-color: rgba(184, 135, 11, 0.877);    
     height: 6em;   
 }
@@ -78,10 +107,9 @@ nav ul li a{
   display: none;
 }
   
-
 #buscador{
-    text-align: center;
-    margin: 1em;
+  text-align: center;
+  margin: 1em;
 }
 
 main{
@@ -113,9 +141,8 @@ main{
     float: left;
 }
 
-
-@media (max-width:639px){
-  #cabecera{
+@media (max-width:640px){
+  #encabezado{
     height: 5em;   
   }
   
@@ -167,12 +194,9 @@ main{
   }
 }
 
+@media only screen and (min-width:641px) and (max-width:1019px){
 
-
-/*     smarthphone horizontal  & tablets vertical*/
-@media only screen and (min-width:640px) and (max-width:1023px){
-
-  #cabecera{
+  #encabezado{
     height: 6em;   
   }
 
@@ -230,12 +254,9 @@ main{
   }
 }
 
+@media only screen and (min-width:1020px) and (max-width:1280px){
 
-
-/*     tablets horizontal & laptop vertical (touch screen)    */
-@media only screen and (min-width:1024px) and (max-width:1279px){
-
-  #cabecera{
+  #encabezado{
     height: 8em;   
   }
  
@@ -301,11 +322,8 @@ main{
   }
 }
         
- 
-
-        /*laptops y Monitores*/
-@media only screen and (min-width:1280px) and (max-width:1919px){
-  #cabecera{
+@media only screen and (min-width:1281px) and (max-width:1919px){
+  #encabezado{
     height: 10em;   
   }
  
@@ -371,11 +389,8 @@ main{
   }  
 }
 
-
-
-        /*Tv*/      
 @media only screen and (min-width:1920px){
-  #cabecera{
+  #encabezad{
     height: 17em;   
   }
  
@@ -423,7 +438,7 @@ main{
     height: 2.3em;
   }
 
-  #buscar{
+  #buscador{
     width: 20em;
     text-align: center;
     margin: 3em auto;
